@@ -399,3 +399,15 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignorar archivos específicos
+94a471c95d8dd08689bfff3eff41218c89540b8d7632cbc7b26c2fd4239bf998-certificate.pem.crt
+94a471c95d8dd08689bfff3eff41218c89540b8d7632cbc7b26c2fd4239bf998-private.pem.key
+94a471c95d8dd08689bfff3eff41218c89540b8d7632cbc7b26c2fd4239bf998-public.pem.key
+AmazonRootCA1.pem
+AmazonRootCA3.pem
+
+# Ignorar todos los certificados y llaves .pem
+*.pem
+*.crt
+*.key
